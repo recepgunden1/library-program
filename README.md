@@ -1,2 +1,2 @@
-# KUTUPHANE PROGRAMI
- - Bir kutuphane kayit programinin simulasyonu 
+# LIBRARY PROGRAM
+ - Simulation of the library registration program

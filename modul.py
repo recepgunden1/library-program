@@ -14,7 +14,6 @@ class Kitap():
         return "Kitap ismi: {}\nYazar: {}\nYayınevi: {}\nTür: {}\nBaski: {}\n".format(self.isim,self.yazar,self.yayinevi,self.tur,self.baski)
     
 class Kutuphane():
-
     def __init__(self):
         self.baglanti_olustur()
     
@@ -35,7 +34,7 @@ class Kutuphane():
 
         if len(Kitaplar) == 0:
             print("Henüz böyle bir kitap bulunmuyor...")
-            
+
         else: 
             for i in Kitaplar:
                 kitap = Kitap(i[0],i[1],i[2],i[3],i[4])

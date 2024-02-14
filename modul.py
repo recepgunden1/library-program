@@ -68,6 +68,7 @@ class Kutuphane():
 
         if len(kitaplar) == 0:
             print("Böyle bir kitap bulunmuyor...")
+            
         else:
             baski = kitaplar[0][4]
             baski += 1

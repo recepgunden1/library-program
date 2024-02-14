@@ -2,7 +2,6 @@ import sqlite3 as sql
 import time 
 
 class Kitap():
-    
     def __init__(self,isim,yazar,yayinevi,tur,baski):
         self.isim = isim
         self.yazar = yazar

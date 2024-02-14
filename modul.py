@@ -46,6 +46,7 @@ class Kutuphane():
         
         if len(Kitaplar) == 0:
             print("Henüz böyle bir kitap bulunmuyor...")
+            
         else:
             kitap = Kitap(Kitaplar[0][0],Kitaplar[0][1],Kitaplar[0][2],Kitaplar[0][3],Kitaplar[0][4])
             print(kitap)
@@ -68,7 +69,7 @@ class Kutuphane():
 
         if len(kitaplar) == 0:
             print("Böyle bir kitap bulunmuyor...")
-            
+
         else:
             baski = kitaplar[0][4]
             baski += 1

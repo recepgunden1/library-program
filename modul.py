@@ -32,9 +32,10 @@ class Kutuphane():
         sorgu = "SELECT * FROM Kitaplar"
         self.cursor.execute(sorgu)
         Kitaplar = self.cursor.fetchall()
-        
+
         if len(Kitaplar) == 0:
             print("Henüz böyle bir kitap bulunmuyor...")
+            
         else: 
             for i in Kitaplar:
                 kitap = Kitap(i[0],i[1],i[2],i[3],i[4])
